@@ -19,7 +19,7 @@ public class Roma_Test extends DriverSetup{
 	RomaBookingPage bookingPage;
 	String from = "Kyiv";
 	String till = "Odesa";
-	String date = "06.12.2015";
+	String date = "07.12.2015";
 	
 	
 	@BeforeClass
@@ -54,8 +54,8 @@ public class Roma_Test extends DriverSetup{
 		bookingPage.submitbuttonSearch();
 		bookingPage.trainsTablePresent();
 	
-		Assert.assertEquals(bookingPage.findTrain(), "148 Ê");
-		//Assert.assertEquals(bookingPage.findTrain(), "763 Ê");
+		Assert.assertEquals(bookingPage.findTrain(), "148 ÃŠ");
+		//Assert.assertEquals(bookingPage.findTrain(), "763 ÃŠ");
 		
 	}	
 	
